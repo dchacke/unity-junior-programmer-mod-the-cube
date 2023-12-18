@@ -102,3 +102,6 @@ Temporary Items
 
 # Ignore backups
 /Backups
+
+# Ignore WebGL builds
+/WebGL Builds
