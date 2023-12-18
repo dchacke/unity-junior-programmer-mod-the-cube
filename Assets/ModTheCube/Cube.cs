@@ -22,5 +22,8 @@ public class Cube : MonoBehaviour
 
         float scale = Mathf.Sin(Time.time) + 1;
         transform.localScale = new Vector3(scale, scale, scale);
+
+        float color = Mathf.Abs(Mathf.Sin(Time.time) % 1);
+        Renderer.material.color = new Color(color, color, color);
     }
 }
