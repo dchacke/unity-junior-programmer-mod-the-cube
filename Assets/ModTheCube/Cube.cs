@@ -18,6 +18,6 @@ public class Cube : MonoBehaviour
     
     void Update()
     {
-        transform.Rotate(10.0f * Time.deltaTime, 0.0f, 0.0f);
+        transform.Rotate(new Vector3(10.0f, 10.0f, 10.0f) * Time.deltaTime);
     }
 }
