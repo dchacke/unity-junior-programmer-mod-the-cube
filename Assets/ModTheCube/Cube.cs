@@ -13,7 +13,7 @@ public class Cube : MonoBehaviour
         
         Material material = Renderer.material;
         
-        material.color = new Color(0.9f, 0.9f, 0.1f, 0.8f);
+        material.color = new Color(Random.Range(0, 1f), Random.Range(0, 1f), Random.Range(0, 1f), 1f);
     }
     
     void Update()
