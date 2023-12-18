@@ -9,7 +9,7 @@ public class Cube : MonoBehaviour
     void Start()
     {
         transform.position = new Vector3(1, 1, 1);
-        transform.localScale = Vector3.one * 1.3f;
+        transform.localScale = Vector3.one * 2f;
         
         Material material = Renderer.material;
         
