@@ -8,12 +8,7 @@ public class Cube : MonoBehaviour
     
     void Start()
     {
-        transform.position = new Vector3(0, 0, 0);
-        transform.localScale = Vector3.one;
-        
-        Material material = Renderer.material;
-        
-        material.color = new Color(Random.Range(0, 1f), Random.Range(0, 1f), Random.Range(0, 1f), 1f);
+
     }
     
     void Update()
